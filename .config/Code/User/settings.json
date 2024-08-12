@@ -6,6 +6,7 @@
   },
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
   "editor.renderWhitespace": "trailing",
   "editor.suggest.insertMode": "replace",
   "editor.tabSize": 2,
