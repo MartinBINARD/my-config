@@ -90,5 +90,15 @@
   {
     "key": "alt+ctrl+l",
     "command": "editor.action.formatDocument"
-  }
+  },
+  // Masque / Affiche l'explorateur de fichier
+  {
+    "key": "alt+1",
+    "command": "workbench.view.explorer",
+  },
+  {
+    "key": "alt+1",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletVisible"
+  },
 ]
