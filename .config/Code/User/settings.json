@@ -5,8 +5,10 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
   "editor.suggest.insertMode": "replace",
   "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "files.autoSave": "onFocusChange",
@@ -20,8 +22,11 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "GitHub Dark",
+  "workbench.editor.enablePreview": false,
   "workbench.editor.limit.value": 7,
   "workbench.editor.limit.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
   "typescript.updateImportsOnFileMove.enabled": "always"
 }
