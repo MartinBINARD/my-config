@@ -1,14 +1,17 @@
 {
+  "database-client.telemetry.usesOnlineServices": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
+  "editor.renderWhitespace": "trailing",
   "editor.suggest.insertMode": "replace",
   "editor.tabSize": 2,
+  "editor.wordWrap": "on",
   "emmet.triggerExpansionOnTab": true,
+  "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "files.autoSave": "onFocusChange",
@@ -21,6 +24,12 @@
     "**/Thumbs.db": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.printWidth": 140,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "telemetry.telemetryLevel": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0,
   "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.enablePreview": false,
   "workbench.editor.limit.value": 7,
@@ -28,5 +37,19 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
