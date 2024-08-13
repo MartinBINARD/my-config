@@ -40,6 +40,11 @@
       "key": "ctrl+o",
       "command": "workbench.action.quickOpen"
   },
+  // Crée un nouveau dossier
+  {
+    "key": "shift+ctrl+n",
+    "command": "explorer.newFolder"
+  },
   // Crée un nouveau fichier
   {
       "key": "ctrl+n",
