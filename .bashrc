@@ -157,3 +157,7 @@ alias ggpull='git pull --rebase origin $(current_branch)'
 alias ggpush='git push origin $(current_branch)'
 alias ggfl='git push origin $(current_branch) --force-with-lease'
 alias y='yarn'
+
+#Upgrade
+#For Debian based with flatpak only
+#alias upg='sudo apt update && sudo apt upgrade -y && sudo flatpak update -y && sudo apt autoremove && sudo apt autoclean'
