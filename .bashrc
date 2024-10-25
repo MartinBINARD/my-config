@@ -160,4 +160,7 @@ alias y='yarn'
 
 #Upgrade
 #For Debian based with flatpak only
-#alias upg='sudo apt update && sudo apt upgrade -y && sudo flatpak update -y && sudo apt autoremove && sudo apt autoclean'
+#alias upg='sudo apt update && sudo apt upgrade -y && sudo flatpak update && flatpak uninstall --unused && flatpak repair --user && sudo apt autoremove -y && sudo apt autoclean -y'
+
+#For Debian based with snap only
+#alias upg='sudo apt update && sudo apt upgrade -y && sudo flatpak update && sudo snap refresh && sudo apt autoremove -y && sudo apt autoclean -y'
